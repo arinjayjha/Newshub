@@ -1,11 +1,17 @@
 import express from 'express';
+const dotenv = require("dotenv");
+const cors = require("cors");
+
 const app = express();
 app.use(express.json());
+app.use(cors());
+dotenv.config();
 const port = process.env.PORT || 5000;
 import mongoose from 'mongoose';
 import 'dotenv/config';
 import { newsRoute } from './routes/newsRoute';
 import { userRoute } from './routes/userRoute';
+
 
 mongoose
 	.connect(`${process.env.MONGO}`)
