@@ -1,13 +1,10 @@
 import express from 'express';
 const dotenv = require("dotenv");
-import cors from 'cors';
-const cors = require("cors");
+import cors = require("cors");
 
 const app = express();
 app.use(express.json());
-app.use((req: Request, res: Response, next: NextFunction) => {
-  next();
-}, cors({ maxAge: 84600 }));
+app.use(cors<Request>());
 dotenv.config();
 const port = process.env.PORT || 5000;
 import mongoose from 'mongoose';
