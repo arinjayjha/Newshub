@@ -5,7 +5,9 @@ const cors = require("cors");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use((req: Request, res: Response, next: NextFunction) => {
+  next();
+}, cors({ maxAge: 84600 }));
 dotenv.config();
 const port = process.env.PORT || 5000;
 import mongoose from 'mongoose';
