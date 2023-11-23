@@ -4,8 +4,8 @@ A MERN Project work illustrating an app which displays news from different sourc
 
 Work of T460 -
 
-Purnansh (21BIT0157)
-Vishwas Kothari (21BIT0330)
-Harsh Gupta (21BCE0477)
-Rochak Sharma (21BCE3676)
-Arinjay Jha (21BIT0106)
+1. Purnansh (21BIT0157)
+2. Vishwas Kothari (21BIT0330)
+3. Harsh Gupta (21BCE0477)
+4. Rochak Sharma (21BCE3676)
+5. Arinjay Jha (21BIT0106)
